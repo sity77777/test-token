@@ -32,5 +32,11 @@ date'''
       }
     }
 
+    stage('finally test') {
+      steps {
+        sh 'lsblk'
+      }
+    }
+
   }
 }
